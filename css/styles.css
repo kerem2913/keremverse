@@ -1,0 +1,275 @@
+body {
+    font-family: "Montserrat";
+}
+
+#title {
+    background-color: #036ac4;
+    color: white;
+    padding: 3% 15% 7%;
+    
+}
+
+h1 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+
+}
+
+h3 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+p {
+    color: gray;
+}
+
+hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: white;
+    border-width: 1px;
+    width: 1%;
+}
+
+/* Navbar  */
+
+.navbar {
+    padding-bottom: 4.5rem;
+
+}
+
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+.music {
+    font-size: 10px;
+    text-align: center;
+}
+
+
+.title-image {
+    width: 19%;
+    margin-left: 20px;
+ 
+    transform: rotate(25deg);
+    position: absolute; 
+}
+
+
+/* Features */
+
+#features {
+    padding: 7% 15%;
+    font-family: "Ubuntu";
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.feature-box {
+    text-align: center;
+}
+
+.icon1 {
+    color: rgb(225, 225, 33);
+    margin-bottom: 1rem;
+}
+
+.icon2 {
+    color: rgb(193, 5, 5);
+    margin-bottom: 1rem;
+}
+
+.icon3 {
+    color: rgb(21, 21, 125);
+    margin-bottom: 1rem;
+}
+
+
+.icon1:hover {
+    color: rgb(249, 249, 38);
+}
+
+.icon2:hover {
+    color: rgb(232, 5, 5);
+    ;
+}
+
+.icon3:hover {
+    color: rgb(28, 28, 192);
+}
+
+
+/* Market */
+
+#market {
+    background-color: #036ac4;
+    padding: 7% 15%;
+    font-family: "Ubuntu";
+
+}
+
+.market-image {
+    width: 50%;
+}
+
+.market-box {
+    text-align: center;
+}
+
+.pfont {
+    color: white;
+    font-family: "Ubuntu";
+    font-weight: bold;
+}
+
+.soldier {
+    color: black;
+}
+
+.soldier:hover {
+    color: gold;
+}
+
+.katalog {
+    text-align: center;
+    color: white;
+    padding-bottom: 5%;
+}
+.duvar {
+    color: rgb(2, 156, 2);
+}
+
+.duvar:hover{
+    color: rgb(2, 171, 2);
+}
+
+/* Yorumlar Kısmı */
+
+#testimonials {
+    text-align: center;
+    background-color: #1279d3;
+    color: white;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+.testimonials-image {
+    width: 12%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+
+
+/* Sponsorlar */
+
+#press {
+    background-color: #1279d3;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+    filter: invert(100%);
+}
+
+.press-logo-white {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Fiyatlandırma */
+
+#pricing {
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-column {
+    padding: 3% 2%;
+}
+
+
+/* Cta */
+
+#cta {
+    background-color: #1279d3;
+    text-align: center;
+    color: white;
+    padding: 7% 15%;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+    
+}
+
+.ctah3 {
+    font-family: "Montserrat-Black" sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+/* Footer */
+
+#footer {
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.footer-icon{
+    margin: 20px 10px;
+    color: black;
+    
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+.footer-icon:hover {
+    color: rgb(65, 64, 64);
+}
+
+@media (max-width: 1080px) {
+    
+     #title {
+        text-align: center;
+     }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+        width: 300px;
+    }
+}
